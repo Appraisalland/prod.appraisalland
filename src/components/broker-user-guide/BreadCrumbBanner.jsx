@@ -8,7 +8,7 @@ const BreadCrumbBanner = () => {
           <div className="col-xl-12">
             <div className="breadcrumb_content">
               {/* <BreadCrumb title="about us" /> */}
-              <h4 className="breadcrumb_title"><span style="color:#2e008b">Appraisal</span> <span style="color:#97d808">Land</span> User Guide</h4>
+              <h4 className="breadcrumb_title"><span style={{ color: "#2e008b" }}>Appraisal</span> <span style={{ color: "#97d808" }}>Land</span> User Guide</h4>
             </div>
           </div>
           {/* End .col */}

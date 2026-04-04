@@ -9,7 +9,7 @@ const BreadCrumbBanner = () => {
             <div className="breadcrumb_content">
               {/* <BreadCrumb title="Membership" /> */}
               <h4 className="breadcrumb_title">
-							<span style="color:#2e008b">Appraisal</span> <span style="color:#97d808">Land</span> Subscription Plan
+							<span style={{ color: "#2e008b" }}>Appraisal</span> <span style={{ color: "#97d808" }}>Land</span> Subscription Plan
 							</h4>
             </div>
           </div>

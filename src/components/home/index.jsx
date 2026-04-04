@@ -144,7 +144,7 @@ const Index = () => {
 									<h2 className="fz50">
 										Brokers Paradise for all real estate appraisals
 									</h2>
-									<p style="display:none" className="fz18 color-white">
+									<p style={{ display: "none" }} className="fz18 color-white">
 										From as low as $11 per month for a limited time.
 									</p>
 								</div>
@@ -159,7 +159,7 @@ const Index = () => {
 									<h2 className="fz50">
 										Brokers Paradise for all real estate appraisals
 									</h2>
-									<p style="display:none" className="fz18 color-white">
+									<p style={{ display: "none" }} className="fz18 color-white">
 										From as low as $11 per month for a limited time.
 									</p>
 								</div>
@@ -210,7 +210,7 @@ const Index = () => {
 						<div className="search_smart_property text-center">
 							<h2 className="text-light">Where Accuracy Meets Expertise</h2>
 							<p className="text-light">
-								Throughout the mortgage process, brokers serve as a point of contact between the borrower and the lender, and appraisers deliver accurate valuations to support informed <span style="white-space:nowrap; display:inline-block; line-height:1.2em; mso-line-height-alt:0.6em">lending&nbsp;decisions.</span>
+								Throughout the mortgage process, brokers serve as a point of contact between the borrower and the lender, and appraisers deliver accurate valuations to support informed <span style={{ whiteSpace: "nowrap", display: "inline-block", lineHeight: "1.2em" }}>lending&nbsp;decisions.</span>
 							</p>
 							<Link href="/sign-up" className="my_profile_setting_input">
 								<button className="btn btn2">Register</button>
@@ -243,7 +243,7 @@ const Index = () => {
 			{/* <!-- Our Team --> */}
 			{/* <!-- Section Hidden --> */}
 			
-			<section style="display:none" className="our-team bgc-f7">
+			<section style={{ display: "none" }} className="our-team bgc-f7">
 				<div className="row">
 					<div className="col-lg-12">
 						<div className="main-title text-center">
@@ -276,7 +276,7 @@ const Index = () => {
 			{/* <!-- Our Partners --> */}
 			{/* <!-- Section Hidden --> */}
 			
-			<section style="display:none" id="our-partners" className="our-partners">
+			<section style={{ display: "none" }} id="our-partners" className="our-partners">
 				<div className="row">
 					<div className="col-lg-12">
 						<div className="main-title text-center">
@@ -305,7 +305,7 @@ const Index = () => {
 			{/* <!-- Our Partners --> */}
 			{/* <!-- Section Hidden --> */}
 			
-			<section style="display:none" id="our-partners" className="our-partners">
+			<section style={{ display: "none" }} id="our-partners" className="our-partners">
 				<div className="row">
 					<div className="col-lg-12">
 						<div className="main-title text-center">
@@ -334,7 +334,7 @@ const Index = () => {
 			{/* <!-- Our Testimonials --> */}
 			{/* <!-- Section Hidden --> */}
 			
-			<section style="display:none" className="our-testimonials">
+			<section style={{ display: "none" }} className="our-testimonials">
 				<div className="row">
 					<div className="col-lg-12 col-12">
 						<div className="main-title text-center mb20">
