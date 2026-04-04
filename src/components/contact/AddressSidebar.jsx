@@ -38,7 +38,7 @@ const AddressSidebar = () => {
             <div className="mt-2">
               <h5>Office Hours</h5>
               <p>
-                Monday - Friday :<br /> 8 AM - 5 PM ET
+                Monday - Friday :<br /> 8:30 AM - 5 PM ET
               </p>
             </div>
           </div>

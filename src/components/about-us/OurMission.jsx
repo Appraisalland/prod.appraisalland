@@ -28,9 +28,7 @@ const OurMission = () => {
       <div className="col-lg-8 col-xl-7">
         <div className="about_content">
           <p className="large">
-            We are a company headquartered in Ontario, collaborating with
-            brokers and appraisers to offer services within the real estate
-            industry.
+						We are a Canadian-based company collaborating with brokers and appraisers to offer services within the real estate appraisal industry.
           </p>
           <p>
             Our mission is to deliver property appraisal services in the most
@@ -39,7 +37,8 @@ const OurMission = () => {
             fostering strong collaboration with stakeholders, and proactively
             addressing concerns with a solution-oriented, analytical approach.
           </p>
-          <ul className="ab_counting">
+					{/* UL Hidden */}
+          <ul style="display:none" className="ab_counting">
             {missionContent.map((item) => (
               <li className="list-inline-item" key={item.id}>
                 <div className="about_counting">
