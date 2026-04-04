@@ -80,7 +80,7 @@ const Index = () => {
                 padding: "15px",
               }}
             >
-              <h2 className="text-light">How that works</h2>
+              <h2 className="text-light"><span style="color:#2e008b">Appraisal</span> <span style="color:#97d808">Land</span> works</h2>
             </div>
           </div>
         </div>
