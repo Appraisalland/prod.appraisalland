@@ -38,7 +38,7 @@ const OurMission = () => {
             addressing concerns with a solution-oriented, analytical approach.
           </p>
 					{/* UL Hidden */}
-          <ul style="display:none" className="ab_counting">
+          <ul style={{ display: "none" }} className="ab_counting">
             {missionContent.map((item) => (
               <li className="list-inline-item" key={item.id}>
                 <div className="about_counting">

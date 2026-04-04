@@ -79,7 +79,7 @@ const Index = () => {
               <h2 className="mt0 text-light">
 								Our Mission
               </h2>
-							<p style="color: #fff !important; font-weight: 600; font-size: 18px; margin: 0 0 10px; font-weight:bold;" className="fz18 color-white">To simplify and strengthen appraisal and mortgage operations by providing dependable, <br/>high-quality support that ensures precision and peace of mind.</p>
+							<p style={{ color: "#fff", fontWeight: "bold", fontSize: "18px", margin: "0 0 10px" }} className="fz18 color-white">To simplify and strengthen appraisal and mortgage operations by providing dependable, <br/>high-quality support that ensures precision and peace of mind.</p>
             </div>
           </div>
         </div>
