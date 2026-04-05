@@ -9,8 +9,8 @@ const Footer = () => {
         <div className="footer_about_widget">
           <h4>About Appraisal Land</h4>
           <p className="text-light">
-            We are an Ontario-based business working with brokers and appraisers
-            to provide services in the real estate sector.
+            Proudly Canadian, connecting brokers and appraisers to streamline 
+            real estate appraisal solutions.
           </p>
         </div>
       </div>

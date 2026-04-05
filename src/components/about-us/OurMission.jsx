@@ -2,7 +2,7 @@ import Image from "next/image";
 import PopupVideo from "../common/PopupVideo";
 
 const OurMission = () => {
-  const missionContent = [
+  {/*const missionContent = [
     {
       id: 1,
       icon: "flaticon-user",
@@ -21,15 +21,16 @@ const OurMission = () => {
       number: "$47",
       meta: "Appraised Properties",
     },
-  ];
+  ]; */}
+
 
   return (
     <>
       <div className="col-lg-8 col-xl-7">
         <div className="about_content">
           <p className="large">
-            We are a company headquartered in Ontario, collaborating with
-            brokers and appraisers to offer services within the real estate
+            We are a Canadian-based company collaborating with brokers and 
+            appraisers to offer services within the real estate appraisal 
             industry.
           </p>
           <p>
