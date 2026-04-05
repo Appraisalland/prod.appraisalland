@@ -78,11 +78,8 @@ const Index = () => {
                 paddingBottom: "60px",
               }}
             >
-              Our goal is to promptly attend to your requirements, allowing you
-              to focus on what&apos;s most important to you: managing your
-              business. If you require immediate assistance, please either dial
-              one of the numbers provided below or engage with us via our online
-              chat platform.
+              We handle your requests quickly, so you can focus on running and 
+              growing your business with confidence and ease.
             </h4>
           </div>
         </div>
@@ -129,7 +126,7 @@ const Index = () => {
               padding: "15px",
             }}
           >
-            <h2 className="text-light">Reach Out With Your Queries </h2>
+            <h2 className="text-light">Get in Touch </h2>
           </div>
         </div>
       </div>
@@ -159,7 +156,7 @@ const Index = () => {
                 style={{ marginTop: "13rem", lineHeight: "1.5" }}
               >
                 {" "}
-                Reach out to our team for any questions or inquiries you have!
+                Our team is here to help!
               </h3>
             </div>
             <div className="col-lg-9 form_grid">

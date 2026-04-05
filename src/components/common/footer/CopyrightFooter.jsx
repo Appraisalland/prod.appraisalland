@@ -29,7 +29,7 @@ const CopyrightFooter = () => {
         <div className="copyright-widget text-center">
           <p className="text-light">
             &copy; {new Date().getFullYear()}{" "}
-            <a href="#" target="_blank" rel="noreferrer" className="text-light">
+            <a href="https://www.appraisalland.ca/" target="_blank" rel="noreferrer" className="text-light">
               Appraisal Land
             </a>
             . All rights reserved.

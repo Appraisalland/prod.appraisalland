@@ -142,9 +142,9 @@ const Index = () => {
                   <h2 className="fz50">
                     Brokers Paradise for all real estate appraisals
                   </h2>
-                  <p className="fz18 color-white">
+                  {/*<!--p className="fz18 color-white">
                     From as low as $11 per month for a limited time.
-                  </p>
+                  </p--> */}
                 </div>
 
                 {/* for mobile view */}
@@ -207,8 +207,10 @@ const Index = () => {
             <div className="search_smart_property text-center">
               <h2 className="text-light">Where Accuracy Meets Expertise</h2>
               <p className="text-light">
-                Throughout the mortgage process, brokers serve as a point of
-                contact between the borrower and the lender.
+                Throughout the mortgage process, brokers serve as a 
+                point of contact between the borrower and the lender, 
+                and appraisers deliver accurate valuations to support 
+                informed lending decisions.
               </p>
               <Link href="/sign-up" className="my_profile_setting_input">
                 <button className="btn btn2">Register</button>
@@ -237,8 +239,8 @@ const Index = () => {
       </section> */}
 
       <hr />
-
-      {/* <!-- Our Team --> */}
+  
+      {/* <!-- Our Team --> 
       <section className="our-team bgc-f7">
         <div className="row">
           <div className="col-lg-12">
@@ -269,7 +271,7 @@ const Index = () => {
 
       <hr />
 
-      {/* <!-- Our Partners --> */}
+      {/* <!-- Our Partners --> 
       <section id="our-partners" className="our-partners">
         <div className="row">
           <div className="col-lg-12">
@@ -296,7 +298,7 @@ const Index = () => {
 
       <hr />
 
-      {/* <!-- Our Partners --> */}
+      {/* <!-- Our Partners --> 
       <section id="our-partners" className="our-partners">
         <div className="row">
           <div className="col-lg-12">
@@ -323,7 +325,7 @@ const Index = () => {
 
       <hr />
 
-      {/* <!-- Our Testimonials --> */}
+      {/* <!-- Our Testimonials --> 
       <section className="our-testimonials">
         <div className="row">
           <div className="col-lg-12 col-12">
@@ -335,7 +337,7 @@ const Index = () => {
                   padding: "20px",
                 }}
               >
-                {/* What Customers Says About Us */}
+                {/* What Customers Says About Us 
                 What Our Users Says
               </h2>
               <p>
@@ -348,7 +350,7 @@ const Index = () => {
           <div className="row mt-5">
             <div className="col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
               <div className="testimonialsec slick-custom-as-nav">
-                {/* <Testimonial /> */}
+                {/* <Testimonial /> 
                 <Testimonials />
               </div>
             </div>
