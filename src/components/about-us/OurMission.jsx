@@ -40,6 +40,7 @@ const OurMission = () => {
             fostering strong collaboration with stakeholders, and proactively
             addressing concerns with a solution-oriented, analytical approach.
           </p>
+          {/*
           <ul className="ab_counting">
             {missionContent.map((item) => (
               <li className="list-inline-item" key={item.id}>
@@ -55,6 +56,7 @@ const OurMission = () => {
               </li>
             ))}
           </ul>
+          */}
         </div>
       </div>
       <div className="col-lg-4 col-xl-5">
