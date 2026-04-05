@@ -2,7 +2,7 @@ import Image from "next/image";
 import PopupVideo from "../common/PopupVideo";
 
 const OurMission = () => {
-  {/*const missionContent = [
+/*  const missionContent = [
     {
       id: 1,
       icon: "flaticon-user",
@@ -21,8 +21,8 @@ const OurMission = () => {
       number: "$47",
       meta: "Appraised Properties",
     },
-  ]; */}
-
+  ];
+*/
 
   return (
     <>
