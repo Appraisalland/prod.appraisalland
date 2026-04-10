@@ -59,7 +59,7 @@ const OurMission = () => {
           */}
         </div>
       </div>
-      <div className="col-lg-4 col-xl-5">
+{/*      <div className="col-lg-4 col-xl-5">
         <div className="about_thumb">
           <Image
             width={461}
@@ -71,7 +71,7 @@ const OurMission = () => {
           />
           <PopupVideo />
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
