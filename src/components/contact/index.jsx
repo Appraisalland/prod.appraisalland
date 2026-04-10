@@ -71,7 +71,7 @@ const Index = () => {
             </div> */}
             <HeroSlider />
             <h4
-              className="text-light text-center"
+              className="text-light text-center text-2xl"
               style={{
                 marginTop: "-30rem",
                 position: "relative",
@@ -142,20 +142,25 @@ const Index = () => {
             }}
           >
             <div
-              className="col-lg-3"
+              className="col-lg-3 text-center"
               style={{
                 borderRadius: "4px 0 0 4px",
-                opacity: "",
                 background: "#2e008b",
-                // background:
-                //   "url(https://i.pinimg.com/originals/02/7e/fd/027efde1602fe8a0a642fafbe5673b42.jpg)",
               }}
             >
+              {/* Logo */}
+              <img
+                src="/assets/images/Appraisal_Land_Logo.png"
+                alt="Appraisal Land Logo"
+                className="mt-5"
+                style={{ width: "60px", height: "auto" }}
+              />
+
+              {/* Heading */}
               <h3
-                className="text-center text-light"
-                style={{ marginTop: "13rem", lineHeight: "1.5" }}
+                className="text-light"
+                style={{ marginTop: "2rem", lineHeight: "1.5" }}
               >
-                {" "}
                 Our team is here to help!
               </h3>
             </div>
