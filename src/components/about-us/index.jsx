@@ -79,7 +79,7 @@ const Index = () => {
               <h2 className="mt0 text-light">
                 Our Mission
               </h2>
-              <p>
+              <p className="mt0 text-light">
                 To simplify and strengthen appraisal and mortgage operations by providing dependable, high-quality support that ensures precision and peace of mind.
               </p>
             </div>
