@@ -26,7 +26,7 @@ const OurMission = () => {
 
   return (
     <>
-      <div className="col-lg-8 col-xl-7">
+{/*      <div className="col-lg-8 col-xl-7">
         <div className="about_content">
           <p className="large">
             We are a Canadian-based company collaborating with brokers and 
@@ -55,11 +55,10 @@ const OurMission = () => {
                 </div>
               </li>
             ))}
-          </ul>
-          */}
+          </ul>       
         </div>
       </div>
-{/*      <div className="col-lg-4 col-xl-5">
+      <div className="col-lg-4 col-xl-5">
         <div className="about_thumb">
           <Image
             width={461}

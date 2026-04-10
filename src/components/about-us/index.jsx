@@ -114,29 +114,32 @@ const Index = () => {
                 <div className="grids mb30">
                   {/* <h4>{item.title}</h4> */}
                   <p className="mb20">
-                    As a Canadian company, we serve as a centralized hub for the 
-                    real estate appraisal industry, connecting mortgage brokers 
-                    and brokerages with appraisers and appraisal companies to enable 
-                    efficient and effective collaboration. Our mission is to simplify 
-                    the appraisal process by creating seamless connections that improve 
-                    speed, communication, and overall outcomes.
+                    We are a Canadian-based company operating within the real estate 
+                    appraisal industry, collaborating with mortgage brokers, brokerages, 
+                    and appraisers to streamline the appraisal process.
                   </p>
                   <p>
-                    We focus on fostering strong, long-term relationships by 
-                    promoting transparency, open communication, and a proactive, 
-                    solutions-driven approach. By bringing together key industry 
-                    professionals on a single platform, we help streamline workflows, 
-                    reduce friction, and support better decision-making.{" "}
+                    Our mission is to deliver property appraisal services in an efficient, 
+                    compliant, and reliable manner. We are committed to fostering strong 
+                    relationships by ensuring timely communication, promoting effective 
+                    collaboration among stakeholders, and proactively addressing challenges 
+                    with a solution-oriented, analytical approach.{" "}
                   </p>
                   <p>
-                    Our team is committed to maintaining a high standard of coordination, 
-                    reliability, and service, ensuring that every connection we facilitate 
-                    adds value to all parties involved.{" "}
+                    As a centralized hub for the industry, we connect mortgage professionals 
+                    with qualified appraisers and appraisal companies, enabling seamless coordination 
+                    and improved workflow efficiency. By simplifying these connections, we help 
+                    enhance speed, communication, and overall outcomes across the appraisal process.{" "}
                   </p>
                   <p>
-                    More than just a connector, we are a strategic partner—bridging the 
-                    gap between mortgage professionals and appraisal experts while driving 
-                    efficiency and innovation across the real estate appraisal landscape.{" "}
+                    We prioritize transparency, responsiveness, and long-term partnership-building. 
+                    Through proactive coordination and consistent service standards, we ensure that 
+                    every interaction adds value to all parties involved.{" "}
+                  </p>
+                  <p>
+                    More than just a connector, we act as a strategic partner—bridging the gap between 
+                    mortgage and appraisal professionals while supporting greater efficiency, clarity, 
+                    and innovation across the real estate appraisal landscape.{" "}
                   </p>
                 </div>
               </div>
