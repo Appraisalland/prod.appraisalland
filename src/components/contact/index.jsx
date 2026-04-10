@@ -1,14 +1,12 @@
+import Image from "next/image";
 import CopyrightFooter from "../common/footer/CopyrightFooter";
 import Footer from "../common/footer/Footer";
 import Header from "../common/header/DefaultHeader_01";
 import MobileMenu from "../common/header/MobileMenu";
-import Partners from "../common/Partners";
-import WhyChoose from "../common/WhyChoose";
-import Testimonial from "../home-7/Testimonial";
+import AddressSidebar from "./AddressSidebar";
 import BreadCrumbBanner from "./BreadCrumbBanner";
-import Team from "./Team";
-import OurMission from "./OurMission";
-import Link from "next/link";
+import HeroSlider from "./HeroSlider";
+import Form from "./Form";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
@@ -52,6 +50,7 @@ const Index = () => {
     // Cleanup the interval when the component is unmounted
     return () => clearInterval(inactivityCheckInterval);
   }, [lastActivityTimestamp]);
+
   return (
     <>
       {/* <!-- Main Header Nav --> */}
@@ -61,181 +60,119 @@ const Index = () => {
       <MobileMenu />
 
       {/* <!-- Inner Page Breadcrumb --> */}
-      <BreadCrumbBanner />
+      {/* <BreadCrumbBanner /> */}
 
-      <div className="about-section">
-        {/* <div className="container"> */}
-        <div className="row">
-          <div className="col-lg-12">
-            <div
-              className="main-title text-center mt-2"
+      <div className="container-fluid p0">
+        <div className="main-banner-wrapper">
+          <div className="arrow-style-2 banner-style-one ">
+            {/* <div className="home-text text-center">
+              <h2 className="fz55">Discover your place to live</h2>
+              <p className="fz18 color-white">Get started in few clicks.</p>
+            </div> */}
+            <HeroSlider />
+            <h4
+              className="text-light text-center text-2xl"
               style={{
-                backgroundColor: "#2e008b",
-                color: "white",
-                paddingTop: "10px",
-                paddingBottom: "2px"
+                marginTop: "-30rem",
+                position: "relative",
+                paddingBottom: "60px",
               }}
             >
-              <h2 className="mt0 text-light">
-                Our Mission
-              </h2>
-              <p className="mt0 text-light">
-                To simplify and strengthen appraisal and mortgage operations by providing dependable, high-quality support that ensures precision and peace of mind.
-              </p>
-            </div>
+              We handle your requests quickly, so you can focus on running and 
+              growing your business with confidence and ease.
+            </h4>
           </div>
         </div>
-
-        <div className="container">
-          <div className="row">
-            <OurMission />
-          </div>
-        </div>
-        {/* End .row */}
-
-        {/* <div className="row mt80">
-          <div className="col-lg-12">
-            <div className="main-title text-center">
-              <h2 className="text-light" style={{
-                backgroundColor: "#2e008b",
-                color: "white",
-                padding: "20px",
-              }}>Why Choose Us</h2>
-              <p>We provide full service at every step.</p>
-            </div>
-          </div>
-        </div> */}
-        {/* End .row */}
-
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12 col-xl-12">
-              <div className="terms_condition_grid">
-                <div className="grids mb30">
-                  {/* <h4>{item.title}</h4> */}
-                  <p className="mb20">
-                    As a Canadian company, we serve as a centralized hub for the 
-                    real estate appraisal industry, connecting mortgage brokers 
-                    and brokerages with appraisers and appraisal companies to enable 
-                    efficient and effective collaboration. Our mission is to simplify 
-                    the appraisal process by creating seamless connections that improve 
-                    speed, communication, and overall outcomes.
-                  </p>
-                  <p>
-                    We focus on fostering strong, long-term relationships by 
-                    promoting transparency, open communication, and a proactive, 
-                    solutions-driven approach. By bringing together key industry 
-                    professionals on a single platform, we help streamline workflows, 
-                    reduce friction, and support better decision-making.{" "}
-                  </p>
-                  <p>
-                    Our team is committed to maintaining a high standard of coordination, 
-                    reliability, and service, ensuring that every connection we facilitate 
-                    adds value to all parties involved.{" "}
-                  </p>
-                  <p>
-                    More than just a connector, we are a strategic partner—bridging the 
-                    gap between mortgage professionals and appraisal experts while driving 
-                    efficiency and innovation across the real estate appraisal landscape.{" "}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* End .row */}
-        {/* </div> */}
+        {/* <!-- /.main-banner-wrapper --> */}
       </div>
+      {/* End .container-fluid */}
 
-      {/* <!-- Property Search --> */}
-      <section
-        id="property-search"
-        className="property-search home1-overlay bg-img5"
-      >
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="search_smart_property text-center">
-              <h2 className="text-light">
-                Need help choosing the right plan?
-              </h2>
-              <p className="text-light">
-                Connect with a product consultant to explore available plans 
-                and customize your Appraisal Land membership for maximum earning 
-                potential.
-              </p>
-              <Link href="/contact">
-                <button className="btn ssp_btn">Contact Us</button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* <!-- Our Team --> */}
-      {/* <section className="our-team bgc-f7">
-        <div className="container">
+      {/* <!-- Our Contact --> */}
+      <section className="our-contact pb0 bgc-f7">
+        <div className="container" style={{ marginTop: "-70px" }}>
           <div className="row">
-            <div className="col-lg-6 offset-lg-3">
-              <div className="main-title text-center">
-                <h2>Our Team</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div className="container">
+              <div className="row">
+                <AddressSidebar />
               </div>
             </div>
+
+            {/* <div className="col-lg-5 col-xl-4 mb-5"></div> */}
           </div>
+          {/* End .row */}
+        </div>
+        {/* End .container */}
+
+        {/* <div className="container-fluid p0 mt50">
           <div className="row">
             <div className="col-lg-12">
-              <div className="team_slider gutter-x15">
-                <Team />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
+              <div className="h600" id="map-canvas">
+                <div className="gmap_canvas pe-none">
+                  <iframe
+                    title="map"
+                    className="gmap_iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d193309.02147838814!2d-74.53513266718751!3d40.79602810000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1663993365939!5m2!1sen!2sbd"
+                  ></iframe> */}
+        {/* End iframe */}
+      </section>
 
-      {/* <!-- Our Testimonials --> */}
-      {/* <section className="our-testimonials">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 offset-lg-3">
-              <div className="main-title text-center mb20">
-                <h2>Testimonials</h2>
-                <p>Here could be a nice sub title</p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-6 offset-lg-3">
-              <div className="testimonial_grid_slider style2 gutter-x15">
-                <Testimonial />
-              </div>
-            </div>
+      <div className="row">
+        <div className="col-lg-12">
+          <div
+            className="main-title text-center mt-2"
+            style={{
+              backgroundColor: "#2e008b",
+              color: "white",
+              padding: "15px",
+            }}
+          >
+            <h2 className="text-light">Get in Touch </h2>
           </div>
         </div>
-      </section> */}
+      </div>
+      {/* End .row */}
 
-      {/* <!-- Our Partners --> */}
-      {/* <section id="our-partners" className="our-partners">
+      <div className="col-lg-12 mb-5">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6 offset-lg-3">
-              <div className="main-title text-center">
-                <h2>Our Partners</h2>
-                <p>We only work with the best companies around the globe</p>
+          <div
+            className="row"
+            style={{
+              boxShadow: "10px 10px 50px 10px rgba(19, 19, 28, 0.52)",
+              borderRadius: "0 5px 5px",
+            }}
+          >
+            <div
+              className="col-lg-3 text-center"
+              style={{
+                borderRadius: "4px 0 0 4px",
+                background: "#2e008b",
+              }}
+            >
+              {/* Logo */}
+              <img
+                src="/assets/images/Appraisal_Land_Logo.png"
+                alt="Appraisal Land Logo"
+                className="mt-5"
+                style={{ width: "60px", height: "auto" }}
+              />
+
+              {/* Heading */}
+              <h3
+                className="text-light"
+                style={{ marginTop: "2rem", lineHeight: "1.5" }}
+              >
+                Our team is here to help!
+              </h3>
+            </div>
+            <div className="col-lg-9 form_grid">
+              <div className="">
+                <Form />
               </div>
             </div>
           </div>
-          <div className="row">
-            <Partners />
-          </div>
         </div>
-      </section> */}
-
-      {/* <!-- Start Call to Action --> */}
-      {/* <section className="start-partners bgc-thm pt50 pb50">
-        <div className="container">
-          <CallToAction />
-        </div>
-      </section> */}
+      </div>
+      {/* End .col */}
 
       {/* <!-- Our Footer --> */}
       <section className="footer_one p20">
